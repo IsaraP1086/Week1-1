@@ -7,6 +7,6 @@ int main() {
 	int sum=0, i;
 	for (i = 1;i <= 1000;i++) {
 		if (check(i)) sum += i;
-	}
+	} 
 	printf("%d", sum);
 }
